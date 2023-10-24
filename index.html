@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/assets/styles/style.css'>
+</head>
+
+<body>
+    <div class="app-container">
+        <h1>Create an account to continue</h1>
+        <form class="form-container" autocomplete>
+            <div class="input-group">
+                <label for="email-input">Enter your email address:</label>
+                <input type="email" id="email-input" placeholder="ahmed0saber33@gmail.com" required>
+            </div>
+            <div class="input-group">
+                <label for="password-input">Enter your password:</label>
+                <input type="password" id="password-input" placeholder="●●●●●●●●" required>
+            </div>
+            <button class="submit-btn" type="submit">Register</button>
+            <a href="/login/">Already have account? Login now</a>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/assets/scripts/config/supabase-config.js"></script>
+<script src="/assets/scripts/utils/cookies.js"></script>
+<script src="/assets/scripts/utils/auth.js"></script>
+<script src='/assets/scripts/index.js'></script>
+
+</html>

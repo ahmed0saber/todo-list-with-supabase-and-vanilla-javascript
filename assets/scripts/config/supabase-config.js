@@ -1,0 +1,3 @@
+const SUPABASE_URL = "https://gpvnaluewwszulrvtdpa.supabase.co"
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdwdm5hbHVld3dzenVscnZ0ZHBhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTc5ODk0NDUsImV4cCI6MjAxMzU2NTQ0NX0.Y1bXCyoYJOtFl5epoVy5_1TL3EJT_NJ1aOpYn-OrXVo"
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
